@@ -25,6 +25,7 @@
 		8CEAAEC7281819E4009F7FF5 /* MenubarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenubarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEAAEC9281819E4009F7FF5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		8CEAAEDB28181C73009F7FF5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8CEAAEDE2818C2A3009F7FF5 /* MenubarApp--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MenubarApp--macOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		8CEAAEB4281819E1009F7FF5 = {
 			isa = PBXGroup;
 			children = (
+				8CEAAEDE2818C2A3009F7FF5 /* MenubarApp--macOS--Info.plist */,
 				8CEAAEB9281819E1009F7FF5 /* Shared */,
 				8CEAAEC8281819E4009F7FF5 /* macOS */,
 				8CEAAEC2281819E4009F7FF5 /* Products */,
@@ -406,6 +408,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MenubarApp--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,6 +437,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MenubarApp--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
