@@ -13,6 +13,8 @@ Sample Crypto iOS/macOS Application Project
 
 - [x] ~~Initialize Project~~
 - [x] ~~Attach Crypto View, ViewModel~~
+- [ ] Add Extra Feature(s)
+   - [x] ~~Quit App~~
 
 ## Note
 

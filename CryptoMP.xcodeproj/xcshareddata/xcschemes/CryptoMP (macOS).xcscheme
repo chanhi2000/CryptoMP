@@ -44,21 +44,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8CEAAEC0281819E4009F7FF5"
-            BuildableName = "CryptoMP.app"
-            BlueprintName = "CryptoMP (iOS)"
-            ReferencedContainer = "container:CryptoMP.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
             BlueprintIdentifier = "8CEAAEC6281819E4009F7FF5"
-            BuildableName = "MenubarApp.app"
+            BuildableName = "CryptoMP.app"
             BlueprintName = "CryptoMP (macOS)"
             ReferencedContainer = "container:CryptoMP.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

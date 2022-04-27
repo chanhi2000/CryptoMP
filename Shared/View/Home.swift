@@ -12,6 +12,7 @@ struct Home: View {
     @State var currentTab: String = "Crypto"
     @Namespace var animation
     @StateObject var appModel: AppViewModel = .init()
+    @State private var showExit = false
     var body: some View {
         VStack {
             CustomSegmentedControl()
@@ -40,9 +41,17 @@ struct Home: View {
                 Spacer()
                 
                 Button {
-                    
+                    showExit = true
                 } label: {
                     Image(systemName: "power")
+                }
+                .alert(isPresented: $showExit) {
+                    Alert(title: Text("Quit CryptoMP"), message: Text("Do you want to quit CryptoMP?"), primaryButton: .default(Text("Yes"), action: {
+                        showExit = false
+                        NSApplication.shared.terminate(self)
+                    }), secondaryButton: .cancel(Text("No"), action: {
+                        showExit = false
+                    }))
                 }
             }
             .padding(.horizontal)
