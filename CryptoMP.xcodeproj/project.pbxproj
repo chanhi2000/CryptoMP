@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8CEAAECA281819E4009F7FF5 /* MenubarAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEBA281819E1009F7FF5 /* MenubarAppApp.swift */; };
-		8CEAAECB281819E4009F7FF5 /* MenubarAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEBA281819E1009F7FF5 /* MenubarAppApp.swift */; };
+		8CEAAECA281819E4009F7FF5 /* CryptoMPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEBA281819E1009F7FF5 /* CryptoMPApp.swift */; };
+		8CEAAECB281819E4009F7FF5 /* CryptoMPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEBA281819E1009F7FF5 /* CryptoMPApp.swift */; };
 		8CEAAECC281819E4009F7FF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEBB281819E1009F7FF5 /* ContentView.swift */; };
 		8CEAAECD281819E4009F7FF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEBB281819E1009F7FF5 /* ContentView.swift */; };
 		8CEAAECE281819E4009F7FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEAAEBC281819E4009F7FF5 /* Assets.xcassets */; };
@@ -24,14 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8CEAAEBA281819E1009F7FF5 /* MenubarAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenubarAppApp.swift; sourceTree = "<group>"; };
+		8CEAAEBA281819E1009F7FF5 /* CryptoMPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMPApp.swift; sourceTree = "<group>"; };
 		8CEAAEBB281819E1009F7FF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CEAAEBC281819E4009F7FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8CEAAEC1281819E4009F7FF5 /* MenubarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenubarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CEAAEC7281819E4009F7FF5 /* MenubarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenubarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEAAEC1281819E4009F7FF5 /* CryptoMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEAAEC7281819E4009F7FF5 /* CryptoMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEAAEC9281819E4009F7FF5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		8CEAAEDB28181C73009F7FF5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		8CEAAEDE2818C2A3009F7FF5 /* MenubarApp--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MenubarApp--macOS--Info.plist"; sourceTree = "<group>"; };
+		8CEAAEDE2818C2A3009F7FF5 /* CryptoMP--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CryptoMP--macOS--Info.plist"; sourceTree = "<group>"; };
 		8CEAAEDF2818CACA009F7FF5 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
 		8CEAAEE12818CB23009F7FF5 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		8CEAAEE32818CB64009F7FF5 /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		8CEAAEB4281819E1009F7FF5 = {
 			isa = PBXGroup;
 			children = (
-				8CEAAEDE2818C2A3009F7FF5 /* MenubarApp--macOS--Info.plist */,
+				8CEAAEDE2818C2A3009F7FF5 /* CryptoMP--macOS--Info.plist */,
 				8CEAAEB9281819E1009F7FF5 /* Shared */,
 				8CEAAEC8281819E4009F7FF5 /* macOS */,
 				8CEAAEC2281819E4009F7FF5 /* Products */,
@@ -71,7 +71,7 @@
 				8CEAAEDA28181A0A009F7FF5 /* ViewModel */,
 				8CEAAED928181A03009F7FF5 /* View */,
 				8CEAAED8281819FE009F7FF5 /* Model */,
-				8CEAAEBA281819E1009F7FF5 /* MenubarAppApp.swift */,
+				8CEAAEBA281819E1009F7FF5 /* CryptoMPApp.swift */,
 				8CEAAEBB281819E1009F7FF5 /* ContentView.swift */,
 				8CEAAEBC281819E4009F7FF5 /* Assets.xcassets */,
 			);
@@ -81,8 +81,8 @@
 		8CEAAEC2281819E4009F7FF5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CEAAEC1281819E4009F7FF5 /* MenubarApp.app */,
-				8CEAAEC7281819E4009F7FF5 /* MenubarApp.app */,
+				8CEAAEC1281819E4009F7FF5 /* CryptoMP.app */,
+				8CEAAEC7281819E4009F7FF5 /* CryptoMP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8CEAAEC0281819E4009F7FF5 /* MenubarApp (iOS) */ = {
+		8CEAAEC0281819E4009F7FF5 /* CryptoMP (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CEAAED2281819E4009F7FF5 /* Build configuration list for PBXNativeTarget "MenubarApp (iOS)" */;
+			buildConfigurationList = 8CEAAED2281819E4009F7FF5 /* Build configuration list for PBXNativeTarget "CryptoMP (iOS)" */;
 			buildPhases = (
 				8CEAAEBD281819E4009F7FF5 /* Sources */,
 				8CEAAEBE281819E4009F7FF5 /* Frameworks */,
@@ -135,14 +135,14 @@
 			);
 			dependencies = (
 			);
-			name = "MenubarApp (iOS)";
+			name = "CryptoMP (iOS)";
 			productName = "MenubarApp (iOS)";
-			productReference = 8CEAAEC1281819E4009F7FF5 /* MenubarApp.app */;
+			productReference = 8CEAAEC1281819E4009F7FF5 /* CryptoMP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8CEAAEC6281819E4009F7FF5 /* MenubarApp (macOS) */ = {
+		8CEAAEC6281819E4009F7FF5 /* CryptoMP (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CEAAED5281819E4009F7FF5 /* Build configuration list for PBXNativeTarget "MenubarApp (macOS)" */;
+			buildConfigurationList = 8CEAAED5281819E4009F7FF5 /* Build configuration list for PBXNativeTarget "CryptoMP (macOS)" */;
 			buildPhases = (
 				8CEAAEC3281819E4009F7FF5 /* Sources */,
 				8CEAAEC4281819E4009F7FF5 /* Frameworks */,
@@ -152,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = "MenubarApp (macOS)";
+			name = "CryptoMP (macOS)";
 			productName = "MenubarApp (macOS)";
-			productReference = 8CEAAEC7281819E4009F7FF5 /* MenubarApp.app */;
+			productReference = 8CEAAEC7281819E4009F7FF5 /* CryptoMP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8CEAAEB8281819E1009F7FF5 /* Build configuration list for PBXProject "MenubarApp" */;
+			buildConfigurationList = 8CEAAEB8281819E1009F7FF5 /* Build configuration list for PBXProject "CryptoMP" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -188,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8CEAAEC0281819E4009F7FF5 /* MenubarApp (iOS) */,
-				8CEAAEC6281819E4009F7FF5 /* MenubarApp (macOS) */,
+				8CEAAEC0281819E4009F7FF5 /* CryptoMP (iOS) */,
+				8CEAAEC6281819E4009F7FF5 /* CryptoMP (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -223,7 +223,7 @@
 				8CEAAEDD28181C99009F7FF5 /* Home.swift in Sources */,
 				8CEAAEE02818CACA009F7FF5 /* CryptoModel.swift in Sources */,
 				8CEAAEE42818CB64009F7FF5 /* LineGraph.swift in Sources */,
-				8CEAAECA281819E4009F7FF5 /* MenubarAppApp.swift in Sources */,
+				8CEAAECA281819E4009F7FF5 /* CryptoMPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +236,7 @@
 				8CEAAEDC28181C73009F7FF5 /* Home.swift in Sources */,
 				8CEAAEE52818D9B0009F7FF5 /* CryptoModel.swift in Sources */,
 				8CEAAEE72818D9C5009F7FF5 /* LineGraph.swift in Sources */,
-				8CEAAECB281819E4009F7FF5 /* MenubarAppApp.swift in Sources */,
+				8CEAAECB281819E4009F7FF5 /* CryptoMPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,8 +373,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.markiiimark.MenubarApp;
-				PRODUCT_NAME = MenubarApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.markiiimark.CryptoMP;
+				PRODUCT_NAME = CryptoMP;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -403,8 +403,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.markiiimark.MenubarApp;
-				PRODUCT_NAME = MenubarApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.markiiimark.CryptoMP;
+				PRODUCT_NAME = CryptoMP;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -426,7 +426,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MenubarApp--macOS--Info.plist";
+				INFOPLIST_FILE = "CryptoMP--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,8 +434,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.markiiimark.MenubarApp;
-				PRODUCT_NAME = MenubarApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.markiiimark.CryptoMP;
+				PRODUCT_NAME = CryptoMP;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -455,7 +455,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MenubarApp--macOS--Info.plist";
+				INFOPLIST_FILE = "CryptoMP--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,8 +463,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.markiiimark.MenubarApp;
-				PRODUCT_NAME = MenubarApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.markiiimark.CryptoMP;
+				PRODUCT_NAME = CryptoMP;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -474,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8CEAAEB8281819E1009F7FF5 /* Build configuration list for PBXProject "MenubarApp" */ = {
+		8CEAAEB8281819E1009F7FF5 /* Build configuration list for PBXProject "CryptoMP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CEAAED0281819E4009F7FF5 /* Debug */,
@@ -483,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CEAAED2281819E4009F7FF5 /* Build configuration list for PBXNativeTarget "MenubarApp (iOS)" */ = {
+		8CEAAED2281819E4009F7FF5 /* Build configuration list for PBXNativeTarget "CryptoMP (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CEAAED3281819E4009F7FF5 /* Debug */,
@@ -492,7 +492,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CEAAED5281819E4009F7FF5 /* Build configuration list for PBXNativeTarget "MenubarApp (macOS)" */ = {
+		8CEAAED5281819E4009F7FF5 /* Build configuration list for PBXNativeTarget "CryptoMP (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CEAAED6281819E4009F7FF5 /* Debug */,

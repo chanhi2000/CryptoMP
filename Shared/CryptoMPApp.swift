@@ -1,5 +1,5 @@
 //
-//  MenubarAppApp.swift
+//  CryptoMPApp.swift
 //  Shared
 //
 //  Created by chlee on 2022/04/26.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct MenubarAppApp: App {
+struct CryptoMPApp: App {
     // MARK: Linking App Delegate
     @NSApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
@@ -29,6 +29,7 @@ class AppDelegate: NSObject, ObservableObject, NSApplicationDelegate {
         setupMacMenu()
     }
     
+
     fileprivate func setupMacMenu() {
         // MARK: Popover properties
         popover.animates = true
