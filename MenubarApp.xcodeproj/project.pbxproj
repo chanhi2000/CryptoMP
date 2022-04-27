@@ -15,6 +15,12 @@
 		8CEAAECF281819E4009F7FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEAAEBC281819E4009F7FF5 /* Assets.xcassets */; };
 		8CEAAEDC28181C73009F7FF5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEDB28181C73009F7FF5 /* Home.swift */; };
 		8CEAAEDD28181C99009F7FF5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEDB28181C73009F7FF5 /* Home.swift */; };
+		8CEAAEE02818CACA009F7FF5 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEDF2818CACA009F7FF5 /* CryptoModel.swift */; };
+		8CEAAEE22818CB23009F7FF5 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEE12818CB23009F7FF5 /* AppViewModel.swift */; };
+		8CEAAEE42818CB64009F7FF5 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEE32818CB64009F7FF5 /* LineGraph.swift */; };
+		8CEAAEE52818D9B0009F7FF5 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEDF2818CACA009F7FF5 /* CryptoModel.swift */; };
+		8CEAAEE62818D9B7009F7FF5 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEE12818CB23009F7FF5 /* AppViewModel.swift */; };
+		8CEAAEE72818D9C5009F7FF5 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAAEE32818CB64009F7FF5 /* LineGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,9 @@
 		8CEAAEC9281819E4009F7FF5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		8CEAAEDB28181C73009F7FF5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		8CEAAEDE2818C2A3009F7FF5 /* MenubarApp--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MenubarApp--macOS--Info.plist"; sourceTree = "<group>"; };
+		8CEAAEDF2818CACA009F7FF5 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		8CEAAEE12818CB23009F7FF5 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		8CEAAEE32818CB64009F7FF5 /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,7 @@
 		8CEAAED8281819FE009F7FF5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8CEAAEDF2818CACA009F7FF5 /* CryptoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				8CEAAEDB28181C73009F7FF5 /* Home.swift */,
+				8CEAAEE32818CB64009F7FF5 /* LineGraph.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,6 +115,7 @@
 		8CEAAEDA28181A0A009F7FF5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8CEAAEE12818CB23009F7FF5 /* AppViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -206,8 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CEAAEE22818CB23009F7FF5 /* AppViewModel.swift in Sources */,
 				8CEAAECC281819E4009F7FF5 /* ContentView.swift in Sources */,
 				8CEAAEDD28181C99009F7FF5 /* Home.swift in Sources */,
+				8CEAAEE02818CACA009F7FF5 /* CryptoModel.swift in Sources */,
+				8CEAAEE42818CB64009F7FF5 /* LineGraph.swift in Sources */,
 				8CEAAECA281819E4009F7FF5 /* MenubarAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,8 +231,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CEAAEE62818D9B7009F7FF5 /* AppViewModel.swift in Sources */,
 				8CEAAECD281819E4009F7FF5 /* ContentView.swift in Sources */,
 				8CEAAEDC28181C73009F7FF5 /* Home.swift in Sources */,
+				8CEAAEE52818D9B0009F7FF5 /* CryptoModel.swift in Sources */,
+				8CEAAEE72818D9C5009F7FF5 /* LineGraph.swift in Sources */,
 				8CEAAECB281819E4009F7FF5 /* MenubarAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

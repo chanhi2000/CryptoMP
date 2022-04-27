@@ -8,15 +8,28 @@
 import SwiftUI
 
 // MARK: Integrating My Crypto App with this Menu App
-
 struct Home: View {
     @State var currentTab: String = "Crypto"
     @Namespace var animation
+    @StateObject var appModel: AppViewModel = .init()
     var body: some View {
         VStack {
             CustomSegmentedControl()
                 .padding()
-            Spacer()
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(spacing: 10) {
+                    if let coins = appModel.coins {
+                        ForEach(coins) { coin in
+                            VStack(spacing: 8) {
+                                CardView(coin: coin)
+                                Divider()
+                            }
+                            .padding(.horizontal)
+                            .padding(.vertical, 8)
+                        }
+                    }
+                }
+            }
             HStack {
                 Button {
                     
@@ -40,6 +53,36 @@ struct Home: View {
         .background{Color("BG")}
         .preferredColorScheme(.dark)
         .buttonStyle(.plain)
+    }
+    
+    // MARK: Custom Card View
+    @ViewBuilder
+    func CardView(coin: CryptoModel) -> some View {
+        HStack {
+            VStack(alignment: .leading, spacing: 6) {
+                Text(coin.name)
+                    .font(.title3)
+                    .fontWeight(.semibold)
+                
+                Text(coin.symbol.uppercased())
+                    .font(.caption)
+                    .foregroundColor(.gray)
+            }
+            .frame(width: 80, alignment: .leading)
+            LineGraph(data: coin.last_7days_price.price, profit: coin.price_change > 0)
+                .padding(.horizontal, 10)
+            VStack(alignment: .trailing, spacing: 6) {
+                Text(coin.current_price.convertToCurrency())
+                    .font(.title3)
+                    .fontWeight(.semibold)
+                
+                Text("\(coin.price_change > 0 ? "+" : "")\(String(format: "%.2f", coin.price_change))")
+                    .font(.caption)
+                    .foregroundColor(
+                        coin.price_change > 0 ? Color("LightGreen") : .red
+                    )
+            }
+        }
     }
     
     // MARK: Custom Segemented Control
@@ -78,5 +121,17 @@ struct Home: View {
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
         Home()
+    }
+}
+
+// MARK: Converting Double to Currency
+extension Double {
+    func convertToCurrency() -> String {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        // Dollar
+        formatter.locale = Locale(identifier: "en_US")
+        
+        return formatter.string(from: .init(value: self)) ?? ""
     }
 }
